@@ -24,3 +24,6 @@ li.on("dblclick", function crossOut() {
 let crossOutButton = $('<crossOutButton></crossOutButton>');
 crossOutButton.append(document.createTextNode('X'));
 li.append(crossOutButton);
+
+// 4. Reordering the items: 
+$('#list').sortable();
