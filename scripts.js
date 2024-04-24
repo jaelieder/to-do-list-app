@@ -11,3 +11,5 @@ if (inputValue === '') {
   } else {
     $('#list').append(li);
 }
+//2. Crossing an item out:
+function crossOut() {
