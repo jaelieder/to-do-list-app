@@ -13,3 +13,5 @@ if (inputValue === '') {
 }
 //2. Crossing an item out:
 function crossOut() {
+    li.toggleClass("strike");
+}
