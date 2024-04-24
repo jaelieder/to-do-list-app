@@ -25,9 +25,9 @@ function newItem(){
     let crossOutButton = $('<crossOutButton></crossOutButton>');
     crossOutButton.append(document.createTextNode('X'));
     li.append(crossOutButton);
+    crossOutButton.on("click", deleteListItem);
 
     //3(ii). Adding CLASS DELETE (DISPLAY: NONE) from the css:
-    crossOutButton.on("click", deleteListItem);
     function deleteListItem(){
     li.addClass("delete");
     }
